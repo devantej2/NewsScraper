@@ -1,0 +1,15 @@
+<div class="article">
+    {{#each articles}}{{#if saved}}
+    <div class="card">
+        <div class="card-header">
+            Featured
+        </div>
+        <div class="card-body">
+            <a href="https://www.foxnews.com{{this.link}}">
+                <h5 class="card-title">{{this.title}}</h5>
+            </a>
+            <p class="card-text">{{this.content}}</p>
+        </div>
+    </div>
+    {{/if}}{{/each}}
+</div>

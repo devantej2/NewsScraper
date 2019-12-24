@@ -32,7 +32,7 @@ const MONGODB_URI =
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("scrape");
 });
 // Scraping data from Website
 app.get("/scrape", (req, res) => {

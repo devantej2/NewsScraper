@@ -2,3 +2,29 @@
   width: 960px;
   margin: 0 auto;
 }
+#article {
+}
+.card {
+  margin: 10px;
+}
+.delete-comment {
+  float: right;
+}
+
+.scrape-container {
+  margin: 0 auto;
+  text-align: center;
+  background: whitesmoke;
+  width: fit-content;
+  padding: 10px;
+}
+
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 97, 253, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}

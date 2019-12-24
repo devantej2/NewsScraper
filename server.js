@@ -31,6 +31,9 @@ const MONGODB_URI =
 //Connecting to mongo database
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
+app.get("/", (req, res) => {
+  res.render("index");
+});
 // Scraping data from Website
 app.get("/scrape", (req, res) => {
   axios.get("https://www.foxnews.com/sports").then(function(response) {

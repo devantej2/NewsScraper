@@ -1,5 +1,9 @@
 # Sports NewsScraper
 
+## Deployed Link
+
+https://blooming-depths-50015.herokuapp.com/
+
 ### Overview
 
 Web application that allow users to view and leave comments on the latest news. With the use of Mongoose and Cheerio, I was able to scrape data from Fox News.
